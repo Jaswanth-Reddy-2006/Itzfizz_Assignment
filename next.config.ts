@@ -1,9 +1,13 @@
 import type { NextConfig } from "next";
 
+const isGithubActions = process.env.GITHUB_ACTIONS === "true";
+const repoName = "Itzfizz_Assignment";
+
 const nextConfig: NextConfig = {
-  output: "export", // Enable static export for GitHub Pages
+  output: "export",
+  basePath: isGithubActions ? `/${repoName}` : "",
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true,
   },
 };
 
