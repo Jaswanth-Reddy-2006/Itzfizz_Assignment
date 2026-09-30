@@ -12,7 +12,7 @@ A frontend scroll-driven hero section animation inspired by the [ItzFizz referen
 
 ## 🚀 Live Demo & Links
 
-- **Live Webpage**: [https://Jaswanth-Reddy-2006.github.io/Itzfizz_Assignment](https://Jaswanth-Reddy-2006.github.io/Itzfizz_Assignment)
+- **Live Webpage (Vercel)**: [https://itzfizzassignment-nu.vercel.app/](https://itzfizzassignment-nu.vercel.app/)
 - **GitHub Repository**: [https://github.com/Jaswanth-Reddy-2006/Itzfizz_Assignment](https://github.com/Jaswanth-Reddy-2006/Itzfizz_Assignment)
 
 ---
