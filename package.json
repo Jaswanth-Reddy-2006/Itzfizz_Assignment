@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "gsap": "^3.15.0",
@@ -22,6 +23,7 @@
     "agentation": "^3.1.2",
     "eslint": "^9",
     "eslint-config-next": "16.3.7",
+    "gh-pages": "^6.3.0",
     "sharp": "^0.35.5",
     "tailwindcss": "^4",
     "typescript": "^5"
